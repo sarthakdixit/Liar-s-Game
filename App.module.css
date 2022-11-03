@@ -1,0 +1,217 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_sub_container{
+    width: 70%;
+}
+
+.home_button{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_button_text{
+    color: white;
+}
+
+.action_btn{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.action_btn_text{
+    color:black
+}
+
+.background_img{
+    position: absolute;
+    z-index: -1;
+}
+
+.dice_tray{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.dice_box{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.dice_box_inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.my_dice_view{
+    position:absolute;
+}
+
+.other_dice_view{
+    position: absolute;
+}
+
+.dice_view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice_view_text{
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.turn_view{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.turn_view_text{
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+}
+
+.action_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.action_view{
+    position: absolute;
+}
+
+.action_box_inner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet_view{
+    position: absolute;
+}
+
+.bet_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.bet_box_text{
+    color: black;
+    font-weight: bolder;
+}
+
+.bet_box_outer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bet_box_inner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet_centered_view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet_modal_view{
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bet_modal_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet_modal_outer{
+    display: flex;
+    flex-direction: row;
+}
+
+.bet_modal_inner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet_modal_text{
+    font-weight: bolder;
+    color: black;
+}
+
+.bet_btn{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_btn{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bet_modal_select_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.scrollview{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
